@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: cursive;
+}
+
+nav {
+  background-color: rgb(182, 134, 75);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: cursive;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text-box {
+  flex: 2; /* As I understand it helps me to use 2/3parts of the page */
+  margin-right: 200px; /* space between text and img */
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.image-container {
+  display: flex; /* Создаем flex-контейнер внутри */
+  flex-direction: column; /* Размещаем изображения друг под другом */
+  justify-content: space-around;
+  flex: 1; /* Занимает вторую часть контейнера */
+  width: 40%;
+}
+
+.image-container img {
+  width: 300px; /* Устанавливаем ширину каждой картинки */
+  height: auto; /* Сохраняем пропорции */
+  margin-bottom: 100px; /* space between pictures */
+}
