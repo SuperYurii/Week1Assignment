@@ -1,21 +1,24 @@
 h1 {
+  color: aliceblue;
   text-align: center;
   font-size: 60px;
   font-family: cursive;
 }
 
 nav {
-  background-color: rgb(182, 134, 75);
+  background-color: rgb(172, 172, 85);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 10px 20px;
   font-family: cursive;
+  
 }
 
 body {
-  background-color: blanchedalmond;
-}
+    background-image: url('https://images.theconversation.com/files/165805/original/image-20170419-6349-dvyy26.jpg?ixlib=rb-4.1.0&rect=0%2C269%2C1024%2C496&q=45&auto=format&w=1356&h=668&fit=crop');
+    background-size: cover;
+    position: relative;
 
 .container {
   margin-top: 100px;
@@ -32,6 +35,7 @@ body {
   font-size: 20px;
   text-align: center;
   font-family: cursive;
+  color: aliceblue;
 }
 
 .image-container {
