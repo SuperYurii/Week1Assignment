@@ -6,7 +6,7 @@ h1 {
 }
 
 nav {
-  background-color: rgb(172, 172, 85);
+  background-color: #fcf2f2;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: flex;
   justify-content: space-evenly;
@@ -16,7 +16,7 @@ nav {
 }
 
 body {
-    background-image: url('https://images.theconversation.com/files/165805/original/image-20170419-6349-dvyy26.jpg?ixlib=rb-4.1.0&rect=0%2C269%2C1024%2C496&q=45&auto=format&w=1356&h=668&fit=crop');
+    background-image: url('https://images.wallpaperscraft.ru/image/single/planety_galaktika_zvezdy_146448_3840x2160.jpg');
     background-size: cover;
     position: relative;
 
@@ -29,7 +29,7 @@ body {
 }
 
 .text-box {
-  flex: 2; /* As I understand it helps me to use 2/3parts of the page */
+  flex: 2; /* As I understand it helps me to use 2/3parts of the page  GPT helped withthis*/
   margin-right: 200px; /* space between text and img */
   width: 50%;
   font-size: 20px;
@@ -39,15 +39,59 @@ body {
 }
 
 .image-container {
-  display: flex; /* Создаем flex-контейнер внутри */
-  flex-direction: column; /* Размещаем изображения друг под другом */
+  display: flex; 
+  flex-direction: column; 
   justify-content: space-around;
-  flex: 1; /* Занимает вторую часть контейнера */
+  flex: 1; 
   width: 40%;
 }
 
 .image-container img {
-  width: 300px; /* Устанавливаем ширину каждой картинки */
-  height: auto; /* Сохраняем пропорции */
-  margin-bottom: 100px; /* space between pictures */
+  width: 300px; 
+  height: auto; 
+  margin-bottom: 100px; 
 }
+img:hover {
+  transform: scale(1.4);
+  filter: brightness(1.2);}
+  
+
+  .positioned {
+    background-color: rgb(12, 21, 29);
+    position: absolute;
+    color: antiquewhite;
+    font-family: cursive;
+    bottom: 10px;
+    right: 10px;
+  }
+  .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
